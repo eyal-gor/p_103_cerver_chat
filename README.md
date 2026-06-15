@@ -1,6 +1,6 @@
 # cerver-chat
 
-> **The embeddable AI chat that costs ~$0 a message.** One `<script>` tag, multi-model, and an agent can design it for you — running on the compute and subscription you already pay for, not a metered API.
+> **A complete AI chat on your project — no backend to build.** Multi-model, configurable, and an agent can design it for you. Set it up in a few clicks, embed it in two lines, and it's *yours* — your models, your account, your look.
 
 ![cerver-chat — a drop-in AI chat for your site](https://raw.githubusercontent.com/eyal-gor/p_103_cerver_chat/main/hero.png)
 
@@ -11,12 +11,12 @@
 
 ## Why this, not the other chat widgets
 
-Every "add a chat" widget meters you per message and locks you to one model. cerver-chat flips both:
+Most options leave you with work: OSS chat *components* hand you a UI and say "now wire up your API, streaming, and storage." SaaS chat *widgets* are a metered, single-model box you don't own. cerver-chat is the whole thing, and it's yours:
 
-- **~$0 per message.** It runs on **your own machine**, on a subscription you already have — marginal cost ≈ zero, not a per-token bill that grows with your traffic. *No other embeddable chat can say this.*
-- **Multi-model, switch live.** Claude · GPT · Gemini · Grok · local — mid-conversation, not one provider.
-- **No backend, one script tag.** cerver does the UI, the streaming, the transcript store, per-visitor sessions, and model routing. You write none of it.
+- **No backend to build.** cerver runs the UI, the streaming, the transcript store, per-visitor sessions, and model routing. You write none of it — two lines and it works.
+- **A real chat, not a toy.** Multi-model with **live switching** (Claude · GPT · Gemini · Grok · local), conversation memory, streaming.
 - **Designed by an agent.** Describe the look — *"dark, rounded, like Linear"* — and an agent writes the CSS. No theming work.
+- **It's yours.** Runs on your own cerver account/compute and your models — not a third party's servers. Configure or restyle it anytime; the same embed picks it up.
 - **Safe to ship in client HTML.** The embed key is chat-only, domain-locked, and spend-capped.
 
 ~4KB, zero dependencies, MIT. The widget is open source; the brain (models, compute) is [cerver](https://cerver.ai).
