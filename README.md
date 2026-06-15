@@ -1,15 +1,25 @@
 # cerver-chat
 
-> Add a fully-working AI chat to your project in a few clicks — no backend, no message store, no streaming code. It runs on **your own compute**, on the subscription you already pay for.
+> **The embeddable AI chat that costs ~$0 a message.** One `<script>` tag, multi-model, and an agent can design it for you — running on the compute and subscription you already pay for, not a metered API.
 
 ![cerver-chat — a drop-in AI chat for your site](https://raw.githubusercontent.com/eyal-gor/p_103_cerver_chat/main/hero.png)
-
-Most "add a chatbot" tools make you build the UI, wire up streaming, store the transcript, manage keys, and pay per message. cerver-chat is the opposite: you click through a short setup, paste two lines, and you have a real chat — multi-model, streaming, with memory — running on your account.
 
 ```html
 <script src="https://cerver.ai/embed/cerver-chat.js"></script>
 <cerver-chat pk="pk_live_…"></cerver-chat>
 ```
+
+## Why this, not the other chat widgets
+
+Every "add a chat" widget meters you per message and locks you to one model. cerver-chat flips both:
+
+- **~$0 per message.** It runs on **your own machine**, on a subscription you already have — marginal cost ≈ zero, not a per-token bill that grows with your traffic. *No other embeddable chat can say this.*
+- **Multi-model, switch live.** Claude · GPT · Gemini · Grok · local — mid-conversation, not one provider.
+- **No backend, one script tag.** cerver does the UI, the streaming, the transcript store, per-visitor sessions, and model routing. You write none of it.
+- **Designed by an agent.** Describe the look — *"dark, rounded, like Linear"* — and an agent writes the CSS. No theming work.
+- **Safe to ship in client HTML.** The embed key is chat-only, domain-locked, and spend-capped.
+
+~4KB, zero dependencies, MIT. The widget is open source; the brain (models, compute) is [cerver](https://cerver.ai).
 
 ## A few clicks to a running chat
 
