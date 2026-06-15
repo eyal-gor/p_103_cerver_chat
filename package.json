@@ -10,5 +10,5 @@
   "keywords": ["ai", "chat", "web-component", "widget", "embed", "llm", "cerver", "multi-model", "streaming"],
   "license": "MIT",
   "homepage": "https://cerver.ai",
-  "repository": { "type": "git", "url": "https://github.com/eyal-gor/cerver-chat" }
+  "repository": { "type": "git", "url": "https://github.com/eyal-gor/p_103_cerver_chat" }
 }
