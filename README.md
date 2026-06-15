@@ -58,6 +58,10 @@ Without a key it runs an **anonymous trial** session (rate-limited) — great fo
 | `system-prompt` | prime it (server config wins when a `pk` is set) |
 | `api-base` | gateway URL (default `https://gateway.cerver.ai`) |
 
+## Set it up from the terminal (skill)
+
+A [Claude Code](https://claude.com/claude-code) skill ships with this repo — [`SKILL.md`](SKILL.md). Drop it in `~/.claude/skills/cerver-chat/` and an agent can **create, configure, design, and embed** a chat for you from the terminal — the same flow as the dashboard's UIs tab, in plain language ("add a chat to my docs site, dark and rounded, get me the embed code").
+
 ## License
 
 MIT
