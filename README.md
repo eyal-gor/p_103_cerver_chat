@@ -1,6 +1,6 @@
 # cerver-chat
 
-> **A complete AI chat on your project — no backend to build.** Multi-model, configurable, and an agent can design it for you. Set it up in a few clicks, embed it in two lines, and it's *yours* — your models, your account, your look.
+> **An AI chat for your site — cerver is the backend.** Models, streaming, sessions, memory, multi-model routing: all handled. You drop in the front-end (two lines) and skip the part everyone hates. **Don't worry about the backend.**
 
 ![cerver-chat — a drop-in AI chat for your site](https://raw.githubusercontent.com/eyal-gor/p_103_cerver_chat/main/hero.png)
 
@@ -9,17 +9,17 @@
 <cerver-chat pk="pk_live_…"></cerver-chat>
 ```
 
-## Why this, not the other chat widgets
+## cerver is the backend for your chat
 
-Most options leave you with work: OSS chat *components* hand you a UI and say "now wire up your API, streaming, and storage." SaaS chat *widgets* are a metered, single-model box you don't own. cerver-chat is the whole thing, and it's yours:
+Like Stripe is the backend for payments, [cerver](https://cerver.ai) is the backend for chat. Other OSS chat *components* hand you a UI and say "now build your API, streaming, and storage." cerver-chat hands you the UI **and** the backend behind it:
 
-- **No backend to build.** cerver runs the UI, the streaming, the transcript store, per-visitor sessions, and model routing. You write none of it — two lines and it works.
+- **You build no backend.** cerver runs the model calls, streaming, transcript store, per-visitor sessions, and routing. Two lines, and it works.
 - **A real chat, not a toy.** Multi-model with **live switching** (Claude · GPT · Gemini · Grok · local), conversation memory, streaming.
-- **Designed by an agent.** Describe the look — *"dark, rounded, like Linear"* — and an agent writes the CSS. No theming work.
-- **It's yours.** Runs on your own cerver account/compute and your models — not a third party's servers. Configure or restyle it anytime; the same embed picks it up.
+- **Designed by an agent.** Describe the look — *"dark, rounded, like Linear"* — and an agent writes the CSS. No theming.
+- **It's yours.** It runs on *your* cerver account and *your* models — not a third party's chat servers. Configure or restyle anytime; the same embed picks it up.
 - **Safe to ship in client HTML.** The embed key is chat-only, domain-locked, and spend-capped.
 
-~4KB, zero dependencies, MIT. The widget is open source; the brain (models, compute) is [cerver](https://cerver.ai).
+**You'll need a free [cerver](https://cerver.ai) account** (that's the backend) — set up the chat in the dashboard, paste the two lines, done. The widget is open source (~4KB, MIT); the backend is cerver.
 
 ## A few clicks to a running chat
 
