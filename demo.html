@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cerver-chat — embed demo</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; background: #eae5d7; color: #1b1a16; font-family: Inter, sans-serif; }
+    .page { max-width: 720px; margin: 0 auto; padding: 56px 24px; }
+    h1 { font-size: 30px; letter-spacing: -.02em; margin: 0 0 8px; }
+    p { color: #6c685c; line-height: 1.6; max-width: 56ch; }
+    code { font-family: 'IBM Plex Mono', monospace; background: #f4f1e8; border: 1px solid #d9d3c2; padding: 2px 6px; font-size: 13px; }
+    .embed { margin: 28px 0; box-shadow: 0 18px 50px rgba(27,26,22,.14); }
+    .snippet { background: #1b1a16; color: #f4f1e8; font-family: 'IBM Plex Mono', monospace; font-size: 12.5px;
+               padding: 16px 18px; overflow-x: auto; line-height: 1.6; }
+    .snippet .k { color: #e08cb4; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Add AI chat in one line.</h1>
+    <p>This whole box is a single custom element, talking live to the cerver gateway — anonymous session, streamed tokens, per-turn cost. No backend, no message store, no streaming code. Run local or remote agents, on the subscription you already pay for.</p>
+
+    <div class="embed">
+      <cerver-chat model="claude-haiku-4-5-20251001"
+                   system-prompt="You are a helpful assistant embedded on a website. Keep answers short."></cerver-chat>
+    </div>
+
+    <div class="snippet">
+<span class="k">&lt;script</span> src=<span style="color:#9fd0ab">"https://cerver.ai/embed/cerver-chat.js"</span><span class="k">&gt;&lt;/script&gt;</span>
+<span class="k">&lt;cerver-chat</span> model=<span style="color:#9fd0ab">"claude-haiku-4-5-20251001"</span><span class="k">&gt;&lt;/cerver-chat&gt;</span>
+    </div>
+    <p>That's it. Swap the model, point it at your docs with a <code>system-prompt</code>, and it just works.</p>
+  </div>
+
+  <script src="./cerver-chat.js"></script>
+</body>
+</html>

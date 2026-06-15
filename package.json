@@ -1,0 +1,14 @@
+{
+  "name": "cerver-chat",
+  "version": "0.1.0",
+  "description": "Drop-in AI chat web component — one script tag, live model switching, streaming, conversation memory. Runs on local or remote agents via cerver.",
+  "type": "module",
+  "main": "cerver-chat.js",
+  "module": "cerver-chat.js",
+  "unpkg": "cerver-chat.js",
+  "files": ["cerver-chat.js", "README.md", "LICENSE"],
+  "keywords": ["ai", "chat", "web-component", "widget", "embed", "llm", "cerver", "multi-model", "streaming"],
+  "license": "MIT",
+  "homepage": "https://cerver.ai",
+  "repository": { "type": "git", "url": "https://github.com/eyal-gor/cerver-chat" }
+}
