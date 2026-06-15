@@ -11,9 +11,10 @@
 
 ## cerver is the backend for your chat
 
-Like Stripe is the backend for payments, [cerver](https://cerver.ai) is the backend for chat. Other OSS chat *components* hand you a UI and say "now build your API, streaming, and storage." cerver-chat hands you the UI **and** the backend behind it:
+Like Stripe is the backend for payments, [cerver](https://cerver.ai) is the backend for chat — and that same backend runs **many different agents**, not just a chatbot. Other OSS chat *components* hand you a UI and say "now build your API, streaming, and storage." cerver-chat hands you the UI **and** the backend behind it:
 
 - **You build no backend.** cerver runs the model calls, streaming, transcript store, per-visitor sessions, and routing. Two lines, and it works.
+- **One backend, many agents.** Chat is one face of it. The same cerver backend runs coding agents, research agents, and scheduled jobs — switch the chat's model live today, and grow into the rest.
 - **A real chat, not a toy.** Multi-model with **live switching** (Claude · GPT · Gemini · Grok · local), conversation memory, streaming.
 - **Designed by an agent.** Describe the look — *"dark, rounded, like Linear"* — and an agent writes the CSS. No theming.
 - **It's yours.** It runs on *your* cerver account and *your* models — not a third party's chat servers. Configure or restyle anytime; the same embed picks it up.
