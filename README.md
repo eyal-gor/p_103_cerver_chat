@@ -2,6 +2,8 @@
 
 > Add a fully-working AI chat to your project in a few clicks — no backend, no message store, no streaming code. It runs on **your own compute**, on the subscription you already pay for.
 
+![cerver-chat — a drop-in AI chat for your site](https://raw.githubusercontent.com/eyal-gor/p_103_cerver_chat/main/hero.png)
+
 Most "add a chatbot" tools make you build the UI, wire up streaming, store the transcript, manage keys, and pay per message. cerver-chat is the opposite: you click through a short setup, paste two lines, and you have a real chat — multi-model, streaming, with memory — running on your account.
 
 ```html
